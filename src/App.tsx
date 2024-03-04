@@ -44,7 +44,7 @@ function App() {
   
   return (
     <>
-      <div className="wrapper">
+    <div className="wrapper">
       <div className="left">
           <h1>Simplicity Builder&trade; Example</h1>
           <p><a href="" onClick={setHelloWorldLink}>Hello World Example</a></p>
@@ -59,7 +59,7 @@ function App() {
           onSave={handleSave}
           onPublish={handlePublish}></SimplicityBuilder>
       </div>
-  </div>
+    </div>
     </>
   )
 }
